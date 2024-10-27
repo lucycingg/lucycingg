@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+int kgmang,jmlmang,jmldibagi,kel1,kel2,kel3;
+cout << "mangga yang dibeli (kg) : "; cin >> kgmang;
+cout << "tetangga dengan jumlah anggota keluarga\n";
+cout << "1 orang : "; cin >> kel1;
+cout << "2 orang : "; cin >> kel2;
+cout << "3 orang : "; cin >> kel3;
+jmlmang = kgmang * 2;
+jmldibagi = 1*kel1 + 2*kel2 + 3*kel3;
+if (jmlmang <jmldibagi)
+    cout << "mangga yang dibeli kurang";
+else
+    cout << "sisa mangga = " << jmlmang-jmldibagi;
+    getchar();
+    getchar();
+
+}
